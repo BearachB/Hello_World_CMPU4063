@@ -1,0 +1,142 @@
+
+                          [10:00] Bearach Byrne : Morning everyone
+[10:01] Ifeanyichukwu Michael Ifiegbu : Good Morning all
+[10:02] Bearach Byrne : Use flex instead of manually positioning elements
+[10:03] Ifeanyichukwu Michael Ifiegbu : grid is for layout
+[10:03] Rebecca Kelly : overall structure of the page
+[10:04] Bearach Byrne : Give it a class and in CSS use display: flex
+[10:05] Daragh Kneeshaw : align it in a row
+[10:05] Rebecca Kelly : i guess it needs to be row or column
+[10:05] Rebecca Kelly : direction
+[10:05] Rebecca Kelly : ah ok! nice
+[10:07] Bearach Byrne : display:grid in CSS?
+[10:07] Rebecca Kelly : in the css file?
+[10:08] Joseph Corcoran : create a class. Like .grid-container {}
+[10:08] Chiazor Ashibuogwu : in a Div?
+[10:09] Ifeanyichukwu Michael Ifiegbu : rows and colums using grid template
+[10:10] Daragh Kneeshaw : specify the ratio between the cells
+[10:10] Joseph Corcoran : you can span the header
+[10:11] Joseph Corcoran : played around a bit, but it didn't always come out how I expected
+[10:12] Bearach Byrne : Yep got it working, but I think I need to play around with it more to fully fet it
+[10:12] Rebecca Kelly : A little but i think i need more goes tbh
+[10:14] Rebecca Kelly : yes
+[10:14] Bearach Byrne : Yep
+[10:23] Joseph Corcoran : we can only see the slides at the moment
+[10:23] Rebecca Kelly : hey andrea I we cant see the code
+[10:23] Chiazor Ashibuogwu : we can't see the code
+[10:31] Bearach Byrne : Yep makes sense so far
+[10:31] Joseph Corcoran : makes sense but will need to rewatch the video later
+[10:32] Liam Neeson : All good need to practice more
+[10:35] Joseph Corcoran : not much of an artist but have it more or less done!
+[10:35] Rebecca Kelly : yea im done too
+[10:35] Bearach Byrne : Me too
+[10:36] Bearach Byrne : A linear version of the webpage
+[10:36] Rebecca Kelly : single column design for the info
+[10:50] Joseph Corcoran : any reason the font changed colour?
+[10:50] Joseph Corcoran : yep, think it was white first
+[10:54] Joseph Corcoran : that's good to know! Thanks
+[10:55] Chiazor Ashibuogwu : all grid should be under @media?
+[10:59] Chiazor Ashibuogwu : okay, thanks very much
+[10:59] Bearach Byrne : Thanks
+[10:59] Daragh Kneeshaw : thanks
+[11:05] Daragh Kneeshaw : the gestalt principles
+[11:05] Bearach Byrne : Perception
+[11:05] Rebecca Kelly : pattern reading
+[11:06] Daragh Kneeshaw : closure
+[11:07] { "dialnum": "<br />+44 01641 760322 United Kingdom of Great Britain and Northern Ireland - Highland<br />+61 (07) 5619 5277 Australia - Queensland<br />+353 (01) 912 8195 Ireland - South Dublin<br />", "confnum": "46070" }
+[11:07] Rebecca Kelly : Grouping?
+[11:07] Ifeanyichukwu Michael Ifiegbu : similarity
+[11:09] Daragh Kneeshaw : man on the laptop
+[11:09] Bearach Byrne : The guy in the centre
+[11:10] Daragh Kneeshaw : affordance
+[11:11] Bearach Byrne : Multitasking
+[11:12] Bearach Byrne : Reading the colours, can't remember the name of the effect
+[11:12] Rebecca Kelly : oh and the hotel game
+[11:15] Bearach Byrne : Can't say I do
+[11:15] Rebecca Kelly : I dont, but i love him haha
+[11:15] Daragh Kneeshaw : i don't
+[11:17] Bearach Byrne : I can't off the top of my head
+[11:17] Rebecca Kelly : older users?
+[11:17] Bearach Byrne : Ohh yes
+[11:17] Rebecca Kelly : im sorry hahaha
+[11:18] Rebecca Kelly : yes
+[11:18] Rebecca Kelly : promise
+[11:18] Bearach Byrne : Yes
+[11:18] Daragh Kneeshaw : yeah, sorry
+[11:18] Bearach Byrne : I think I needed context for them
+[11:21] Bearach Byrne : yep
+[11:21] Joseph Corcoran : yep
+[11:21] Daragh Kneeshaw : yeah
+[11:21] Daragh Kneeshaw : no
+[11:21] Joseph Corcoran : no
+[11:21] Bearach Byrne : No
+[11:22] Rebecca Kelly : no
+[11:22] Daragh Kneeshaw : yeah
+[11:22] Joseph Corcoran : yep
+[11:22] Bearach Byrne : Yes
+[11:22] Daragh Kneeshaw : no
+[11:22] Joseph Corcoran : yep
+[11:22] Rebecca Kelly : yes
+[11:22] Bearach Byrne : no
+[11:22] Joseph Corcoran : no
+[11:22] Daragh Kneeshaw : no
+[11:22] Bearach Byrne : No
+[11:22] Rebecca Kelly : no
+[11:22] Daragh Kneeshaw : no
+[11:22] Joseph Corcoran : no
+[11:22] Bearach Byrne : no
+[11:22] Rebecca Kelly : no
+[11:22] Daragh Kneeshaw : yeah
+[11:22] Joseph Corcoran : yep
+[11:22] Bearach Byrne : Yes
+[11:22] Rebecca Kelly : yes
+[11:25] Joseph Corcoran : by doing examples
+[11:25] Daragh Kneeshaw : yeah doing
+[11:25] Bearach Byrne : Yeah by actually doing the thing
+[11:25] Rebecca Kelly : a mixture of things. stuff explained in a few different ways is great for me
+[11:26] Chiazor Ashibuogwu : practical teachings
+[11:26] Rebecca Kelly : associations
+[11:26] Bearach Byrne : Using memory palaces for rote learning
+[11:26] Rebecca Kelly : reading short quick notes before i go to sleep as well
+[11:27] Rebecca Kelly : yea sometimes i dream it
+[11:27] Rebecca Kelly : no its great for working stuff out
+[11:27] Rebecca Kelly : ive dreamt solutions
+[11:27] Rebecca Kelly : haha
+[11:27] Daragh Kneeshaw : that happens me but the sleep is awful
+[11:27] Rebecca Kelly : Yeah i do that!
+[11:27] Liam Neeson : Dreaming in code
+[11:28] Daragh Kneeshaw : conditioning
+[11:28] Rebecca Kelly : yes the bell!
+[11:28] Bearach Byrne : Associate certain senses with something
+[11:29] Daragh Kneeshaw : nope
+[11:29] Rebecca Kelly : Yea
+[11:29] Bearach Byrne : No I haven't
+[11:30] Bearach Byrne : Similar looking navigation menus
+[11:30] Rebecca Kelly : color, fonts?
+[11:31] Rebecca Kelly : css
+[11:32] Bearach Byrne : Are you looking for an example of it?
+[11:32] Ifeanyichukwu Michael Ifiegbu : hover
+[11:32] Bearach Byrne : colours of links
+[11:33] Bearach Byrne : A certain colour for links that haven't been visited and another for links that have been
+[11:33] Ifeanyichukwu Michael Ifiegbu : hover for buttons or links
+[11:33] Daragh Kneeshaw : something you can click on
+[11:33] Rebecca Kelly : functionality
+[11:33] Rebecca Kelly : user expirience
+[11:34] Bearach Byrne : Yep
+[11:34] Rebecca Kelly : yes
+[11:36] Bearach Byrne : Gamify something so users are competing against each other
+[11:36] Rebecca Kelly : blogs, social media icons
+[11:38] Rebecca Kelly : honestly im a little confused by the q
+[11:39] Daragh Kneeshaw : responsiveness
+[11:40] Bearach Byrne : Light/dark colour themes
+[11:40] Daragh Kneeshaw : zooming?
+[11:41] Ifeanyichukwu Michael Ifiegbu : filter information
+[11:42] Bearach Byrne : `Will those blog results be on Brightspace?
+[11:42] Bearach Byrne : Great thanks
+[11:47] Rebecca Kelly : none for me, thanks for going through the common wrong answers
+[11:47] Daragh Kneeshaw : none from me. thanks for going over that
+[11:47] Chiazor Ashibuogwu : None from me as well
+[11:47] Joseph Corcoran : there's no way of seeing our previous answers? Just because I can't remember if I got those right or wrong!
+[11:47] Joseph Corcoran : that's what I was thinking, thanks!
+
+Be clear on attributes

@@ -1,0 +1,411 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-column: 1fr 1fr;
+  -ms-grid-row: auto auto;
+  grid-template-rows: auto auto;
+}
+
+
+/* Mobile Layout*/
+.grid-container {
+  display:grid;
+  flex-direction: column;
+  min-height: 1vh;
+}
+
+@media (max-width: 768) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .grid-container{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+  }
+  #wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;	
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Body */
+
+.topnav {
+  background-color: #0a81dd;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  top:0;
+  width: 100%;
+  position: fixed;
+}
+
+.topnav a {
+  background-color: #0a81dd;
+  color: rgb(255, 255, 255);
+  float: left;
+  display: inline;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+
+.topnav a.active {
+  background-color: #0a81dd;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.topnav a:hover {
+  background-color: #ffffff;
+  color: #0a81dd;
+  font-weight: bold;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.main {
+  margin-top: 30px;
+  padding: 16px;
+}
+
+ul#icons li{
+  /* border: white; */
+  display: inline;
+}
+
+body{ 
+  background-color: rgb(255, 255, 255);
+  margin:0;
+  padding: auto;
+}
+
+*{
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+header { 
+  background-color: #869dc7;
+  font-size: 80%;
+  text-align:left;
+  color:white;
+  padding: 5px 5px 5px 5px;
+  background-repeat: repeat;
+  position:static;
+  top:0%;
+  width:100%;
+  
+}
+
+footer {
+  display:flex; 
+  align-content:center;
+  font-size:80%;
+  padding: 4em 0 2em 0;
+  clear: both;
+  background:#d1d1d1;
+  height:40%;
+  color: white;
+
+}
+
+.fa{
+  background: 0a81dd;
+  color: #ffffff;
+  font-size:100px;
+  padding: 5px 50px 5px 5px ;
+}
+
+img{
+  max-width: 100%; 
+  height: auto;
+  object-fit: cover;
+}
+
+a:link,a:visited{
+  /* color:navy;  */
+  text-decoration: none;}
+
+#floatright {
+  margin: 10px;
+  float: right;
+}
+
+#bottomnav {text-align:center;
+  width:30%; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+#maincontent {
+	   padding:5%;
+}
+
+.container {
+  margin: auto;
+  max-width: calc(100% - 4.5em);
+  width: 45em;
+  padding: 20px;
+}
+
+body {
+  font-family: "Lato", sans-serif; ;
+}
+
+/* Setting the heading sizes */
+h1 {
+  font-size: 2rem;
+  line-height: 40px;
+  color: #0a81dd;
+  
+}
+
+h2 {
+  font-size: 1.875rem;
+  line-height: 40px;
+  color: #0A81DD;
+
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 40px;
+  color: #0A81DD;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 20px;
+  color: #409fe9;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+
+#one {
+  border-bottom: 5px solid rgb(173, 173, 173);
+}
+
+#two {
+  border-bottom: 5px solid rgb(173, 173, 173);
+}
+
+#three {
+  border-bottom: 5px solid rgb(173, 173, 173);
+}
+
+#four {
+  border-bottom: 5px solid rgb(173, 173, 173);
+}
+
+#five {
+  border-bottom: 5px solid rgb(173, 173, 173);
+}
+
+#six {
+  border-bottom: 5px solid rgb(173, 173, 173);
+}
+
+#seven {
+  border-bottom: 5px solid rgb(173, 173, 173);
+}
+
+
+ul.interest-icons {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.interest-icons li {
+  display: inline-block;
+  margin: 0 0 1.6875em 0;
+  padding: 0.35em 0 0 3.5em;
+  position: relative;
+  vertical-align: top;
+  width: 48%;
+  color: black;
+  font-weight: bold;
+}
+
+ul.interest-icons li:before {
+  background: #0a81dd;
+  border-radius: 100%;
+  color: #ffffff;
+  display: block;
+  height: 2.5em;
+  left: 0;
+  line-height: 2.5em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 2.5em;
+}
+
+
+/* Styling for submit button */
+input[type=submit] {
+  background-color: #0a81dd;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float:left;
+  font-weight: bold;
+}
+
+input[type=submit]:hover {
+  background-color: #8eceff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float:left;
+  font-weight: bold;
+}
+
+/* Styling for reset button */
+input[type=reset] {
+  background-color: #989898;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float:inline-end;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+input[type=reset]:hover {
+  background-color: #cacaca;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float:inline-end;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.actions{
+  list-style-type:none;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.form_field{
+  padding-top: 10px;
+}
+
+.info_form{
+  width: 100%;
+}
+
+input:placeholder-shown {
+  font-style: italic;
+  font-size: larger;
+  padding: 3px 5px;
+
+}
+
+textarea:placeholder-shown{
+  font-style: italic;
+  font-size:x-large;
+  padding: 0px 5px;
+}
+
+#name{
+  width: 60%;
+}
+
+#email{
+  width: 60%;
+}
+
+#subject{
+  width: 60%;
+}
+
+#message{
+  width: 100%;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.inner {
+  border-bottom: 3px solid rgb(230, 230, 230);
+  padding-bottom: 20px;
+}

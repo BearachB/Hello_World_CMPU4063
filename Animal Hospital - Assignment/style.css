@@ -1,0 +1,83 @@
+body {background-color: #D5DFE5;}
+header {
+    background-color: blue; 
+    color: #454851; 
+    text-align: center;
+    padding: 20px 20px 200px 20px;
+    background-image: url(dogs_banner.jpg);
+}
+h1{
+    color:black;
+    font-size: x-large;
+    font: 20px Arial;
+}
+a:link {
+    color: #0000EE;
+  }
+
+a:visited {
+    color:#0000EE;
+}
+a:hover {
+    color: #0000EE;
+  }
+
+footer{
+    width: 100%;
+    background-color:#CF5C36;
+    font-style: italic;
+    text-align: left; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+
+}
+ul {
+    list-style-type: square;
+}
+dt {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#nav_bar {
+    background-color: lightsteelblue;
+    font-family: "Courier New", "Courier New", monospace;
+    font-weight: bold;
+    font-size: 21px;
+    top: 50px;
+    padding:25px;
+    margin-left: 5px;
+
+}
+
+#main_content {
+    font: 20px Arial;
+    color: black;
+    margin-left: 5px;
+    background-color: #D5DFE5;
+
+}
+
+#contact_number {
+    background-color: #B5838D;
+}
+
+#banner{
+    position: -sticky;
+    padding: 20px 20px 250px 20px;
+    background-image: url(dogs_banner.jpg);
+}
+
+img.resize {
+    width: 540px;
+    height: auto;
+}
+
+#banner_text {
+    margin-top: 1px;
+    margin-left: 25%;
+    margin-bottom: 1%;
+    font: 40px Helvetica; 
+    font-weight: bold;
+}

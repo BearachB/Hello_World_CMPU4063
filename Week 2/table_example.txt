@@ -1,0 +1,14 @@
+<div>
+   <header>Layer 1</header>
+   <nav>Layer 2</nav>
+   <aside>Layer 3</aside>
+   <main> 
+           Layer 4
+           <div>Layer 5</div>
+           <div>Layer 6</div>
+           <article>Layer 7</article>
+           <article>Layer 8</article>
+           <article>Layer 9</article>
+           <article>Layer 10</article>
+   </main>
+</div

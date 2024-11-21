@@ -1,0 +1,35 @@
+html{font-size:12px;}
+header{background-color: green; font-size: 3rem;}
+aside{background-color: yellow; font-size: 2rem;}
+
+main{background-color: orange; font-size: 14px;}
+
+footer{background-color: blue; grid-column:1/span 2; grid-row:3;}
+
+img {max-width: 100%; height: auto; }
+
+.grid-container{
+	display: flex;
+  	flex-direction: column;
+  	min-height: 100vh;
+}	
+.flexbox-center{display: flex; justify-content: center; align-items: center;}
+.flexbox-right{display: flex; justify-content: flex-end;}
+
+
+@media (min-width: 768px) {
+	.grid-container{
+		display:grid;
+		grid-template-rows: 1fr 3fr;
+		grid-template-columns: 20% 80%;
+	}
+	
+	html{font-size:16px;}
+
+	header{grid-column:1/span 2; grid-row:1;}
+	footer{grid-column:1/span 2; grid-row:3;}
+
+	main{font-size: 30px;}
+}
+
+
