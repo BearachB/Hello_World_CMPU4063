@@ -1,6 +1,6 @@
 # Web & User Interface Design - CMPU4063
 
-This repository contains files and projects related to the Web & User Interface Design module (CMPU4063) in my Master's program.
+This repository contains files and projects related to the Web & User Interface Design module (CMPU4063) in my Master's program. This is a test.
 
 ## Table of Contents
 
